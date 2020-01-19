@@ -2,7 +2,7 @@
 
 buildscript {
     ext {
-        kotlin_version = '1.3.21'
+        kotlin_version = '1.3.50'
 
         // The oldest Android version we support.  Increasing this stops updates
         // for users on old devices, but can simplify the system.  Synced with
@@ -19,7 +19,8 @@ buildscript {
         //   https://medium.com/androiddevelopers/picking-your-compilesdkversion-minsdkversion-targetsdkversion-a098a0341ebd
         // What's the latest?  Consult this list:
         //   https://developer.android.com/studio/releases/platforms
-        compileSdkVersion = 28
+        // Do edit .travis.yml when updating this.
+        compileSdkVersion = 29
 
         supportLibVersion = "28.0.0"
     }
@@ -29,7 +30,7 @@ buildscript {
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath 'com.android.tools.build:gradle:3.4.2'
+        classpath 'com.android.tools.build:gradle:3.5.0'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files

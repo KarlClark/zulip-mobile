@@ -19,11 +19,15 @@ To use it, [install VS Code](https://code.visualstudio.com/).
 
 ### Useful extensions for VS Code
 
-Install the following extensions, which support important aspects of our
-codebase. Each extension page has install instructions at the top.
+VS Code should prompt you to install the recommended extensions when you open the
+workspace for the first time. If you don't get the notification you can also review
+the list with the `Extensions: Show Recommended Extensions` command (press
+`ctrl/cmd + shift + P` to bring up command prompt).
+
+The following are the recommended extensions for reference.
 
 * [React Native
-    Tools](https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native)
+    Tools](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native)
 * [Flow Language
     Support](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode)
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
